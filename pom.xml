@@ -9,5 +9,6 @@
   <url>http://maven.apache.org</url>
   <modules>
     <module>notify-me-ecomm</module>
+      <module>pizza-shop-decorator</module>
   </modules>
 </project>
