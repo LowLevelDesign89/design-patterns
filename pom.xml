@@ -14,5 +14,6 @@
       <module>elevator-lld</module>
       <module>car-rental-system</module>
       <module>logger-lld</module>
+      <module>snake-and-ladder-lld</module>
   </modules>
 </project>
