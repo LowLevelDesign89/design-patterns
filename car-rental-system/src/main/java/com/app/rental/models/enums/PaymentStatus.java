@@ -1,0 +1,9 @@
+package com.app.rental.models.enums;
+
+public enum PaymentStatus {
+    PAYMENT_INITIATED, PAYMENT_COMPLETED,
+    PAYMENT_CANCELLED,
+    REFUND_INITIATED, REFUND_COMPLETED, REFUND_FAILED,
+    REFUND_CANCELLED;
+
+}

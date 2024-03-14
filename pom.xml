@@ -12,5 +12,6 @@
       <module>pizza-shop-decorator</module>
       <module>tic-tac-toe</module>
       <module>elevator-lld</module>
+      <module>car-rental-system</module>
   </modules>
 </project>
