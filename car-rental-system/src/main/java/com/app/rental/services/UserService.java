@@ -5,10 +5,10 @@ import com.app.rental.models.entity.ContactDetails;
 import com.app.rental.models.entity.Member;
 import com.app.rental.models.enums.AccountStatus;
 import com.app.rental.repository.UserRepository;
-import com.sun.tools.javac.util.List;
 
 import java.time.ZonedDateTime;
 import java.util.ArrayList;
+import java.util.List;
 
 
 public class UserService {

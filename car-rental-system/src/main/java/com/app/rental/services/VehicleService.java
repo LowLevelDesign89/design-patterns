@@ -29,7 +29,7 @@ public class VehicleService {
         vehicle.getMetadata().setColor(vehicleRequestDto.getColor());
         vehicle.getMetadata().setWheels(vehicleRequestDto.getWheels());
         vehicle.getMetadata().setMake(vehicleRequestDto.getMake());
-        vehicleRepository.addVehicle(vehicle);
+        vehicleRepository.save(vehicle);
         return vehicle;
     }
 }
