@@ -13,5 +13,6 @@
       <module>tic-tac-toe</module>
       <module>elevator-lld</module>
       <module>car-rental-system</module>
+      <module>logger-lld</module>
   </modules>
 </project>
