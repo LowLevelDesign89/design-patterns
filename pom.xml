@@ -15,5 +15,6 @@
       <module>car-rental-system</module>
       <module>logger-lld</module>
       <module>snake-and-ladder-lld</module>
+      <module>proxy-design-pattern</module>
   </modules>
 </project>
