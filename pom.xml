@@ -16,5 +16,6 @@
       <module>logger-lld</module>
       <module>snake-and-ladder-lld</module>
       <module>proxy-design-pattern</module>
+      <module>null-object-pattern</module>
   </modules>
 </project>
