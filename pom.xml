@@ -17,5 +17,6 @@
       <module>snake-and-ladder-lld</module>
       <module>proxy-design-pattern</module>
       <module>null-object-pattern</module>
+      <module>vending-machine-lld</module>
   </modules>
 </project>
