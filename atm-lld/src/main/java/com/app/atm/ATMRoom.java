@@ -13,9 +13,6 @@ public class ATMRoom {
         atm.getAtmState().selectOption(atm, user.getCard(), TransactionType.WITHDRAWAL_BALANCE);
         atm.getAtmState().cashWithDrawal(atm, user.getCard(), 2700);
         atm.printAtmBalance();
-
-
-
     }
 
     private static void initialize() {
