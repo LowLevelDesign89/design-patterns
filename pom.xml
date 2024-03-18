@@ -19,5 +19,7 @@
       <module>null-object-pattern</module>
       <module>vending-machine-lld</module>
       <module>atm-lld</module>
+      <module>chessboard-lld</module>
+      <module>composite-design-pattern</module>
   </modules>
 </project>
