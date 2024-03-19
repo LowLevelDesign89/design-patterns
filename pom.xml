@@ -21,5 +21,6 @@
       <module>atm-lld</module>
       <module>chessboard-lld</module>
       <module>composite-design-pattern</module>
+      <module>adapter-design-pattern</module>
   </modules>
 </project>
