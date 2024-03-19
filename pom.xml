@@ -22,5 +22,7 @@
       <module>chessboard-lld</module>
       <module>composite-design-pattern</module>
       <module>adapter-design-pattern</module>
+      <module>splitwise-lld</module>
+      <module>builder-pattern</module>
   </modules>
 </project>
