@@ -25,5 +25,6 @@
       <module>splitwise-lld</module>
       <module>builder-pattern</module>
       <module>cricbuzz-lld</module>
+      <module>facade-design-pattern</module>
   </modules>
 </project>
