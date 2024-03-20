@@ -26,5 +26,6 @@
       <module>builder-pattern</module>
       <module>cricbuzz-lld</module>
       <module>facade-design-pattern</module>
+      <module>bridge-design-pattern</module>
   </modules>
 </project>
