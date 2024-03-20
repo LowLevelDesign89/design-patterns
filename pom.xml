@@ -24,5 +24,6 @@
       <module>adapter-design-pattern</module>
       <module>splitwise-lld</module>
       <module>builder-pattern</module>
+      <module>cricbuzz-lld</module>
   </modules>
 </project>
