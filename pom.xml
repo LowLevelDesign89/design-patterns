@@ -27,5 +27,14 @@
       <module>cricbuzz-lld</module>
       <module>facade-design-pattern</module>
       <module>bridge-design-pattern</module>
+      <module>inventory-mgmt-system</module>
   </modules>
+  <dependencies>
+    <dependency>
+      <groupId>org.projectlombok</groupId>
+      <artifactId>lombok</artifactId>
+      <version>1.18.32</version>
+      <scope>provided</scope>
+    </dependency>
+  </dependencies>
 </project>
