@@ -29,6 +29,7 @@
       <module>bridge-design-pattern</module>
       <module>inventory-mgmt-system</module>
     <module>flyweight-design-pattern</module>
+    <module>command-design-pattern</module>
   </modules>
   <dependencies>
     <dependency>
