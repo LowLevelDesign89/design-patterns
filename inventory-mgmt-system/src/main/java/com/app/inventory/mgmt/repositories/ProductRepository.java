@@ -17,4 +17,8 @@ public class ProductRepository {
         return product;
     }
 
+    public Product findById(String productId) {
+        return products.get(productId);
+    }
+
 }
