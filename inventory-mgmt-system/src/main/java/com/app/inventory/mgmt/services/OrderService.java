@@ -8,6 +8,7 @@ import com.app.inventory.mgmt.repositories.UserManagementRepository;
 import com.app.inventory.mgmt.repositories.WarehouseRepository;
 
 import java.math.BigDecimal;
+import java.util.HashMap;
 import java.util.Map;
 
 public class OrderService {
@@ -16,6 +17,8 @@ public class OrderService {
 
     private OrderRepository orderRepository;
     private PaymentService paymentService;
+
+    private UserProfileService userProfileService;
 
     private static final BigDecimal tax = BigDecimal.valueOf(0.18);
     public Order createOrder(OrderRequestDTO orderRequestDTO) {
@@ -44,6 +47,7 @@ public class OrderService {
             order.setPayment(payment);
             order.setOrderStatus(OrderStatus.ORDERED);
             orderRepository.save(order);
+            userProfileService.emptyCart(user);
         } catch (Exception exception) {
             order.setOrderStatus(OrderStatus.FAILED);
             orderRepository.save(order);

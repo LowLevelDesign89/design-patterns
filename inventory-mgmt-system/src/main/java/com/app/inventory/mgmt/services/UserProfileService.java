@@ -7,6 +7,7 @@ import com.app.inventory.mgmt.repositories.ProductRepository;
 import com.app.inventory.mgmt.repositories.UserManagementRepository;
 import lombok.AllArgsConstructor;
 
+import java.util.HashMap;
 import java.util.Map;
 
 @AllArgsConstructor
@@ -21,4 +22,11 @@ public class UserProfileService {
         user.getCart().setCartItems(cartItem);
         return userManagementRepository.save(user);
     }
+
+    public User emptyCart(User user) {
+        user.getCart().setCartItems(new HashMap<>());
+        userManagementRepository.save(user);
+        return user;
+    }
 }
+
