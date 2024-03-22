@@ -28,6 +28,7 @@
       <module>facade-design-pattern</module>
       <module>bridge-design-pattern</module>
       <module>inventory-mgmt-system</module>
+    <module>flyweight-design-pattern</module>
   </modules>
   <dependencies>
     <dependency>
