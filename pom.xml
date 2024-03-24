@@ -32,6 +32,7 @@
     <module>command-design-pattern</module>
     <module>online-auction-system</module>
     <module>applying-coupon-on-products</module>
+    <module>visitor-pattern</module>
   </modules>
   <dependencies>
     <dependency>
