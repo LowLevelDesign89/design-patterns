@@ -31,6 +31,7 @@
     <module>flyweight-design-pattern</module>
     <module>command-design-pattern</module>
     <module>online-auction-system</module>
+    <module>applying-coupon-on-products</module>
   </modules>
   <dependencies>
     <dependency>
