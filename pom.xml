@@ -33,6 +33,7 @@
     <module>online-auction-system</module>
     <module>applying-coupon-on-products</module>
     <module>visitor-pattern</module>
+    <module>memento-design-pattern</module>
   </modules>
   <dependencies>
     <dependency>
