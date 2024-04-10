@@ -34,6 +34,7 @@
     <module>applying-coupon-on-products</module>
     <module>visitor-pattern</module>
     <module>memento-design-pattern</module>
+    <module>template-design-pattern</module>
   </modules>
   <dependencies>
     <dependency>
