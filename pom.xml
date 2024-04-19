@@ -35,6 +35,7 @@
     <module>visitor-pattern</module>
     <module>memento-design-pattern</module>
     <module>template-design-pattern</module>
+    <module>producer-consumer</module>
   </modules>
   <dependencies>
     <dependency>
