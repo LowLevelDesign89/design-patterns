@@ -36,6 +36,7 @@
     <module>memento-design-pattern</module>
     <module>template-design-pattern</module>
     <module>producer-consumer</module>
+    <module>rate-limiter-lld</module>
   </modules>
   <dependencies>
     <dependency>
